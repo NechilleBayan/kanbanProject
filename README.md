@@ -1,8 +1,17 @@
-# shigoto
-A ToDo List/Kanban board/Google Keep inspired website
+# kanbanProject
+今を生きる - ima wo ikiru
+
+
 
 ## desc
-Can have multiple entries. Will retain the contents upon refreshing the page.
+A board that displays the workflow of the user.
+Formatted as:
+
+To Do     ||    In Progress    ||    Done
+
+Designed to have three columns: ToDo, InProgress, and Done.
+Can manually reassign category as the task progresses. How? Secret.
+Persistent content.
 
 ## Utilized
 HTML
