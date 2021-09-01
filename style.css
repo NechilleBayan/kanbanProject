@@ -1,0 +1,48 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.todo, .inprogress, .done {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content {
+    margin:10px;
+}
+
+.todo {
+    background: rgb(137,227,255);
+    background: linear-gradient(270deg, rgba(137,227,255,1) 0%, rgba(0,84,208,1) 100%);
+}
+
+.inprogress {
+    background: rgb(201,238,255);
+    background: linear-gradient(270deg, rgba(201,238,255,1) 0%, rgba(137,227,255,1) 100%);
+}
+
+.done {
+    background-color: rgb(201, 238, 255);
+}
+
+
+@media (max-width: 575.98px) { 
+    
+    .todo {
+        background: rgb(137,227,255);
+        background: linear-gradient(0deg, rgba(137,227,255,1) 0%, rgba(0,84,208,1) 100%);
+    }
+    
+    .inprogress {
+        background: rgb(201,238,255);
+        background: linear-gradient(0deg, rgba(201,238,255,1) 0%, rgba(137,227,255,1) 100%);
+    }
+    
+    .done {
+        background-color: rgb(201, 238, 255);
+    }
+ }
